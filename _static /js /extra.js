@@ -20,6 +20,10 @@ document.writeln("  gtag(\'config\', \'G-T5MB93EYWW\');");
 document.writeln("</script>");
 document.writeln("<script charset=\'UTF-8\' id=\'LA_COLLECT\' src=\'//sdk.51.la/js-sdk-pro.min.js\'></script>");
 document.writeln("<script>LA.init({id: \'JSNrRPHfPgJLCTal\',ck: \'JSNrRPHfPgJLCTal\'})</script>");
+if ( window.location.host == 'waterwelly.github.io'){
+  self.location='https://oi.waterwelly.com/'
+}
+
 
 window.addEventListener('load', function () {
   var p = localStorage.getItem("data-md-color-primary");
