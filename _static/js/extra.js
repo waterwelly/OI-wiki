@@ -1,3 +1,26 @@
+document.writeln("<script>");
+document.writeln("  var _paq = window._paq = window._paq || [];");
+document.writeln("  /* tracker methods like \'setCustomDimension\' should be called before \'trackPageView\' */");
+document.writeln("  _paq.push([\'trackPageView\']);");
+document.writeln("  _paq.push([\'enableLinkTracking\']);");
+document.writeln("  (function() {");
+document.writeln("    var u=\'//www.waterwelly.com/Matomo/\';");
+document.writeln("    _paq.push([\'setTrackerUrl\', u+\'matomo.php\']);");
+document.writeln("    _paq.push([\'setSiteId\', \'1\']);");
+document.writeln("    var d=document, g=d.createElement(\'script\'), s=d.getElementsByTagName(\'script\')[0];");
+document.writeln("    g.async=true; g.src=u+\'matomo.js\'; s.parentNode.insertBefore(g,s);");
+document.writeln("  })();");
+document.writeln("</script>");
+document.writeln("<script async src=\'https://www.googletagmanager.com/gtag/js?id=G-T5MB93EYWW\'></script>");
+document.writeln("<script>");
+document.writeln("  window.dataLayer = window.dataLayer || [];");
+document.writeln("  function gtag(){dataLayer.push(arguments);}");
+document.writeln("  gtag(\'js\', new Date());");
+document.writeln("  gtag(\'config\', \'G-T5MB93EYWW\');");
+document.writeln("</script>");
+document.writeln("<script charset=\'UTF-8\' id=\'LA_COLLECT\' src=\'//sdk.51.la/js-sdk-pro.min.js\'></script>");
+document.writeln("<script>LA.init({id: \'JSNrRPHfPgJLCTal\',ck: \'JSNrRPHfPgJLCTal\'})</script>");
+
 window.addEventListener('load', function () {
   var p = localStorage.getItem("data-md-color-primary");
   if (p) {
