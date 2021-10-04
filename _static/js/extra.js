@@ -32,9 +32,10 @@ document.writeln("<script>LA.init({id: \'JSNrRPHfPgJLCTal\',ck: \'JSNrRPHfPgJLCT
 document.writeln("");
 document.writeln("");
 
-if ( window.location.host == 'waterwelly.github.io'){
-  self.location='https://oi.waterwelly.com/'
-}
+var _host = 'oi.waterwelly.com';
+if ( window.location.host != _host){
+  self.location='https://' + _host
+};
 
 
 window.addEventListener('load', function () {
