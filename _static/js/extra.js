@@ -32,10 +32,10 @@ document.writeln("<script>LA.init({id: \'JSNrRPHfPgJLCTal\',ck: \'JSNrRPHfPgJLCT
 document.writeln("");
 document.writeln("");
 
-var _host = 'oi.icoc.work';
+/*var _host = 'oi.icoc.work';
 if ( window.location.host != _host){
   self.location='https://' + _host
-};
+};*/
 
 
 window.addEventListener('load', function () {
